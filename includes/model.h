@@ -7,5 +7,4 @@ class model{
     int w2=-0.09338002;
 };
 
-
 #endif
