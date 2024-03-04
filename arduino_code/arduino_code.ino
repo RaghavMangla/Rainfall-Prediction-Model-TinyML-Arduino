@@ -4,7 +4,7 @@
 #include <DHT.h>
 #include <DHT_U.h>
 #include <math.h>
-#include<model.h>
+
 
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
@@ -74,14 +74,14 @@ void loop() {
   float xp=Po*100;
   lcd.setCursor(1,0);
   lcd.print("Predict: ");
-  delay(1000);
+  delay(2000);
   lcd.clear();
 
   lcd.setCursor(2,0);
   lcd.print("P(rain)%:");
   lcd.setCursor(2,1);
   lcd.print(xp);
-  delay(1000);
+  delay(2000);
   lcd.clear();
   // Reading temperature or humidity takes about 250 milliseconds!
   // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
