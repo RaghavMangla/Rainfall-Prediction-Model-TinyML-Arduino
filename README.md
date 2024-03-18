@@ -16,6 +16,6 @@ This project demonstrates a practical application of IoT and TinyML technologies
 ## Authors
 
 - Raghav Mangla
-- Aditya Kumar
 - Akshit Singhal
+- Aditya Kumar
 
